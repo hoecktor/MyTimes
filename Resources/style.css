@@ -1,5 +1,41 @@
+
 header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+  border-bottom: solid 1px black;
+  padding-bottom: 5px;
+}
+
+ul {
+  display: inline-flex;
+  list-style-type: none;
+  justify-content: space-around;
+  width: 400px;
+}
+
+li {
+  width: 75px;
+  justify-content: center;
+}
+
+p, ul {
+  margin-top: 20px;
+}
+
+a {
+  color: black;
+}
+
+#logo {
+  width: 150px;
+  margin-left: 10px;
+  display: flex;
+  color: MediumAquamarine;
+  justify-content: space-between;
+  align-content: center;
 }
