@@ -31,6 +31,19 @@ a {
   color: black;
 }
 
+div {
+  border: solid black 1px;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+}
+
+.column {
+  margin-right: 30px;
+}
+
 #logo {
   width: 150px;
   margin-left: 10px;
@@ -38,4 +51,16 @@ a {
   color: MediumAquamarine;
   justify-content: space-between;
   align-content: center;
+}
+
+#first {
+  width: 630px;
+}
+
+#second {
+  width: 300px;
+}
+
+#third {
+   width: 240px;
 }
