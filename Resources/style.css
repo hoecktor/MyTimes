@@ -35,6 +35,13 @@ div {
   border: solid black 1px;
 }
 
+h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
 .content {
   display: flex;
   width: 100%;
@@ -42,6 +49,29 @@ div {
 
 .column {
   margin-right: 30px;
+}
+
+.pic {
+    display: flex;
+}
+
+.sub {
+  display: flex;
+  flex-flow: column;
+}
+
+.SmallStories {
+  display: flex;
+}
+
+.SmallNoPic {
+  display: flex;
+  height: 500px;
+}
+
+.SmallPic {
+  display: flex;
+  height: 300px;
 }
 
 #logo {
@@ -63,4 +93,26 @@ div {
 
 #third {
    width: 240px;
+}
+
+#tuna {
+  background-image: url(./img-story-main.png);
+  height: 300px;
+}
+
+#earth {
+  background-image: url(./img-story-2.png);
+}
+
+#camera {
+  background-image: url(./img-story-3.png);
+}
+
+#cat {
+  background-image: url(./img-story-1.png);
+  height: 300px;
+}
+
+.SmallPic h2 {
+  align-self: center;
 }
